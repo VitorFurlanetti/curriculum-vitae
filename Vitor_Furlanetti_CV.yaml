@@ -1,0 +1,105 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.5/schema.json
+cv:
+  name: Vitor Furlanetti
+  location: Campinas, SP, Brazil
+  email: vitorf@gmail.com
+  phone: +55 (19) 9-8228-8965
+  sections:
+    Intro:
+      - Combining technical and management skills acquired over an extensive career in Software Engineering I help teams to improve performance, design better solutions and deliver meaningful results through software.
+    education:
+      - institution: FGV - Fundação Getúlio Vargas
+        area: Leadership and Innovation
+        degree: MBA
+        start_date: 2021-01
+        end_date: 2022-12
+        location: Campinas, SP
+        summary:
+      - institution: Centro Universitário Barão de Mauá
+        area: Computer Science
+        degree: BS
+        start_date: 2008-01
+        end_date: 2011-12
+        location: Ribeirão Preto, SP
+        summary:
+      - institution: Centro Paula Souza
+        area: Information Technology
+        degree: AS
+        start_date: 2002-01
+        end_date: 2003-12
+        location: Matão, SP
+        summary:        
+    experience:
+      - company: Nubank
+        position: Engineer Manager
+        start_date: 2021-07
+        end_date: present
+        location: São Paulo, SP, Brazil
+        summary: Manage engineering teams.
+      - company: CI&T
+        position: Tech Manager
+        start_date: 2014-02
+        end_date: 2021-06
+        location: Campinas, SP, Brazil
+        summary: Manage engineering teams.
+      - company: CI&T
+        position: Software Architect
+        start_date: 2019-06
+        end_date: 2020-11
+        location: Campinas, SP, Brazil
+        summary: Definition of technical solutions.
+      - company: CI&T
+        position: Senior Software Engineer
+        start_date: 2014-02
+        end_date: 2019-05
+        location: Campinas, SP, Brazil
+        summary: Development of systems for clients in various segments.
+      - company: TTI - Travel Technology Interactive
+        position: Software Engineer
+        start_date: 2012-01
+        end_date: 2014-02
+        location: Ribeirão Preto, SP, Brazil
+        summary: Development of new features for the company's Airline Management System.
+      - company: Criar Sistemas Inteligents
+        position: Software Engineer
+        start_date: 2011-03
+        end_date: 2011-12
+        location: Ribeirão Preto, SP, Brazil
+        summary: Build applications and features in .NET C#
+      - company: Centro Universitário Barão de Mauá
+        position: Software Engineer
+        start_date: 2007-06
+        end_date: 2011-02
+        location: Ribeirão Preto, SP, Brazil
+        summary: Implementation of new features on the company's internal systems
+      - company: Floriano Comunicação Integrada
+        position: Software Engineer
+        start_date: 2006-06
+        end_date: 2007-06
+        location: Ribeirão Preto, SP, Brazil
+        summary: Responsible for creating backend for websites
+    skills:
+      - label: Programming Languages
+        details: C#, Java, Clojure
+      - label: Infrastructure
+        details: Kubernetes, Docker, AWS
+design:
+  theme: engineeringclassic
+locale:
+  language: english
+settings:
+  current_date: '2025-12-22'
+  render_command:
+    design:
+    locale:
+    typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: true
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: true
+  bold_keywords: []
